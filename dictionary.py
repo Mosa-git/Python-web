@@ -7,5 +7,5 @@ my_dict['grape'] = 4
 
 print(my_dict)
 
-my_dict['banana'] = 7
+my_dict['peach'] = 7
 print(my_dict)
