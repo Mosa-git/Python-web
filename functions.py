@@ -1,4 +1,4 @@
-
+'''
 def greet(name):
     print(f"Hello, {name}")
 
@@ -9,6 +9,7 @@ greet("Mosa")
 
 result = add(2, 5)
 print(result)
+'''
 
 def factorial(n):
     if n == 0:
@@ -16,7 +17,7 @@ def factorial(n):
     else:
         return n*factorial(n-1)
     
-    def greet(name, greeting="Hello"):
-        print(f"{greeting}, {name}")
+def greet(name, greeting="Hello"):
+    print(f"{greeting}, {name}")
         
-    greet("Mosa", "Good morning")
+greet("Mosa", "Good morning")
